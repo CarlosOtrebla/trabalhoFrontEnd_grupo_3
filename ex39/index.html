@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela com cabeçalho, corpo e rodapé</title>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tfoot td {
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cabeçalho 1</th>
+            <th>Cabeçalho 2</th>
+            <th>Cabeçalho 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td>Dado 3</td>
+        </tr>
+        <tr>
+            <td>Dado 4</td>
+            <td>Dado 5</td>
+            <td>Dado 6</td>
+        </tr>
+        <tr>
+            <td>Dado 7</td>
+            <td>Dado 8</td>
+            <td>Dado 9</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">rodapé</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
