@@ -1,0 +1,21 @@
+#idName{
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  color: #000;
+  padding-left: 10px;
+  background-color: rgb(197, 226, 204);
+ border: none;
+ outline: none;
+ font-size: large; 
+}
+
+#nameDisplay {
+  color: rgb(177, 126, 59);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+}
