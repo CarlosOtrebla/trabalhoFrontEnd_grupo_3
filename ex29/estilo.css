@@ -1,0 +1,11 @@
+input
+{
+    background-color: cadetblue;
+    width: 450px;
+   
+}
+
+:-ms-input-placeholder
+{
+    color: darkblue;
+}
