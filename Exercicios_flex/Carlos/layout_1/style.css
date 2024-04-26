@@ -1,0 +1,58 @@
+:root {
+  --cor_01: #7fffd4;
+  --aside_1: rgb(161, 55, 78);
+  --aside_2: rgb(107, 105, 105);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+html {
+  margin: 10px;
+  height: 100%;
+
+}
+
+body {
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 13vh;
+  background-color: var(--cor_01);
+}
+
+section {
+  height: 41vh;
+  display: flex;
+}
+
+.um main {
+
+  background-color: rgb(107, 105, 105);
+  width: 100%;
+}
+
+.um aside {
+  background-color: var(--aside_1);
+  width: 30vw;
+}
+
+.dois main {
+  background-color: var(--cor_01);
+  width: 100%;
+}
+
+.dois {
+  flex-direction: row-reverse;
+}
+
+.dois aside {
+  background-color: var(--aside_1);
+  width: 30vw;
+}
