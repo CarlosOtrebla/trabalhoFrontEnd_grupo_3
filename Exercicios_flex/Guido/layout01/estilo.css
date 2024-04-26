@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+aside
+{
+    width:25vw;
+    height: 64.5vh;
+    background-color: cadetblue;
+    margin: 5px;
+}
+
+section
+{
+    background-color: cadetblue;
+    width: 25vw;
+    height: 11.1vh;
+    margin: 5px;
+}
+
+.cima
+{
+    display: flex; 
+    flex-direction: row;
+    align-items: end;
+}
+
+.baixo
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.banners
+{
+    flex-direction: column;
+    justify-content: right;
+    
+}
+
+#bVermelho
+{
+    width: 75vw;
+    height: 32vh;
+    background-color: red;
+    margin:5px
+}
+
+#bAzul
+{
+    width: 75vw;
+    height: 32vh;
+    background-color: cadetblue;
+    margin: 5px;
+}
+
+#topBlack
+{
+    width: 24.2vw;
+    height: 33.3vh;
+    background-color: gray;
+}
