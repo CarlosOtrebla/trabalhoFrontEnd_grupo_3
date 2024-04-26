@@ -1,0 +1,31 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div
+{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+section
+{
+    background-color: brown;
+    width: 25vw;
+    height: 30vh;
+    margin:10px;
+}
+
+header
+{
+    width:auto;
+    height:33vh;
+    background-color: grey;
+    margin: 10px;
+}
+

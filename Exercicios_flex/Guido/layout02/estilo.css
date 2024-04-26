@@ -1,0 +1,38 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+max-width: 100vw;
+max-height: 100vh;
+}
+
+header
+{
+    width: 99.5vw;
+    height: 12vh;
+    background-color: gray;
+    margin: 5px;
+}
+
+#banner
+{
+    width: 99.5vw;
+    height: 53vh;
+    background-color: red;
+}
+
+section
+{
+    height: 32vh;
+    width: 33.4vw;
+    background-color: gray;
+    margin:5px
+}
+
+.baixo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}

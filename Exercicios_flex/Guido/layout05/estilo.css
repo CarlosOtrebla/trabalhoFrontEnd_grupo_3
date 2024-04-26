@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: auto;
+    height: 10vh;
+    margin: 5px;
+    background-color: gray;
+}
+
+div
+{
+    display: flex;
+    flex-direction: row;
+}
+section
+{
+    margin: 5px;
+    width: 33.3vw;
+    height: 30.5vh;
+    background-color: brown;
+}
+
+#doistercos
+{
+    width: 66.6vw;
+    height: 56vh;
+    background-color: red;
+}
+
+#umterco
+{
+    width: 33.3vw;
+    height: 56vh;
+    background-color: cadetblue;
+}
