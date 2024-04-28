@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+    margin: 10px;
+    height: calc(100vh - 130px);
+  }
+
+header{
+    flex: 1;
+    background-color: crimson;
+    margin: 10px;
+    width: 70%;
+}
+
+aside{
+    width: 20%;
+    background-color: aquamarine;
+    height: 50-px;
+    margin: 10px;
+}
+
+main{
+    width: 98%;
+    height: 70px;
+    margin: 12px;
+    background-color: aquamarine;
+}

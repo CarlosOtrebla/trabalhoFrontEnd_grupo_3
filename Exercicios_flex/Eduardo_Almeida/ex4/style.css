@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+    margin: 10px;
+    height: calc(40vh - 130px);
+}
+
+.q1{
+    flex: 1;
+    margin: 10px;
+    max-width: 30%;
+    height: 100px;
+    background-color: aquamarine;
+}  
+
+.q2{
+    flex: 1;
+    margin: 10px;
+    max-width: 70%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.q3{
+    flex: 1;
+    margin: 10px;
+    height: 100px;
+    width: 98%;
+    background-color: crimson;
+    
+}
+
+main{
+    flex: 1;
+    height: 250px;
+    margin: 5px;
+    width: 50vw;
+}
+
+.q5{
+    background-color: aquamarine;
+}
+
+.q4{
+    background-color: gray;
+}

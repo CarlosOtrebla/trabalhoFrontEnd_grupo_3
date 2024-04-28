@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-direction: column;    
+    margin: 10px;
+}
+
+container{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 10px;
+
+}
+
+asideleft{
+    display: flex;
+    background-color: crimson;
+    height: 400px;
+    width: 20vw;
+    margin: 10px;
+    
+}
+
+maintop{
+    display: flex;
+    height: 198px;
+    margin: 5px;
+    width: 50vw;
+    background-color: aquamarine;
+    
+}
+
+mainbottom{
+    display: flex;
+    height: 198px;
+    margin: 5px;
+    width: 50vw;
+    background-color: aquamarine;
+    
+}
+
+asideright{
+    display: flex;
+    background-color: crimson;
+    height: 400px;
+    width: 20vw;
+    margin: 10px;
+}
+
+.espacamento{
+    display: grid;
+    grid-template-areas: "overlap";
+}
+
