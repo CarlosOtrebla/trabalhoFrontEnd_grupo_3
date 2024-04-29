@@ -25,29 +25,41 @@ nav {
 .menu1{
 gap: 10px;
 width: 25%;
-height: 80vh;
+height: 70vh;
 }
 .artigo1{
     background-color: blue;
     height: 35vh;
+    margin-bottom: 10px;
 }
 .artigo2{
     background-color: orange;
-    height: 45vh;
+    height: 39vh;
+    
 }
 .artigo3{
     background-color: orange;
-    height: 20vh;
+    height: 25vh;
+    border: 1px solid red;
+    margin-bottom: 10px;
 }
 .artigo4{
-    background-color: orange;
-    height: 10vh;
+    background-color: green;
+    
+    height: 48vh;
+    
+    
+    
 }
-.menu2{
+.menu2 {
     background-color: brown;
     width: 55%;
+    height: 75vh;
+    gap: 10px;
+    
 }
 .menu3 {
-    background-color: green;
+    
     width: 25%;
+    gap: 10px;
 }
