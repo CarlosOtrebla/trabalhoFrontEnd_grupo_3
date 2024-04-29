@@ -1,0 +1,38 @@
+#topo {
+    display: flex;
+    white-space: nowrap;
+}
+.he1 {
+    flex: 1;
+    height: 10vh;
+    background-color: #a89da5;
+    margin: 10px;
+}
+.he2 {
+    flex: 2;
+    height: 10vh;
+    background-color: #6ab9c0;
+    margin: 10px;
+}
+#blocos {
+    display: flex;
+}
+.pad {
+    flex: 1;
+    background-color: #6ab9c0;
+    height: 72vh;
+    margin: 10px;
+}
+.ver {
+    flex: 1;
+    background-color: #f16582;
+    height: 72vh;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    flex: 1;
+    height: 10vh;
+    background-color: #a89da5;
+    margin: 10px;   
+}

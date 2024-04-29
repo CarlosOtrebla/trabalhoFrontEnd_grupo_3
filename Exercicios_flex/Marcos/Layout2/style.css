@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex: 1;
+    height: 10vh;
+    background-color: #a89da5;
+    margin: 10px;
+}
+section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+div {
+    flex: 1;
+    height: 27vh;
+    margin: 10px;
+}
+.cia {
+    background-color: #6ab9c0;
+}
+.ver {
+    background-color: #f16582;
+}
+
+

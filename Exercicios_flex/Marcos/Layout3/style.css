@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    flex: 1;
+    height: 10vh;
+    background-color: #6ab9c0;
+    margin: 10px;
+}
+section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+div {            /*lembrar:*/
+    flex: 1;
+    height: 73vh;/*altura*/
+    background-color: #6ab9c0;
+    margin: 10px;
+}
+.ver {
+    background-color: #f16582;
+}
+.cin {
+    background-color: #a89da5;
+}
+footer {
+    display: flex;
+    flex: 1;
+    height: 10vh;
+    background-color: #6ab9c0;
+    margin: 10px;
+}
