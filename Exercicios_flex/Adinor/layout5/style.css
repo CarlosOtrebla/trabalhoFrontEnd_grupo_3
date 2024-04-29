@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+
+   margin: 10px 10px 10px 10px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+nav {
+    background-color: palevioletred;
+    height: 20vh;
+    
+}
+.menu {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu1{
+gap: 10px;
+width: 25%;
+height: 80vh;
+}
+.artigo1{
+    background-color: blue;
+    height: 35vh;
+}
+.artigo2{
+    background-color: orange;
+    height: 45vh;
+}
+.artigo3{
+    background-color: orange;
+    height: 20vh;
+}
+.artigo4{
+    background-color: orange;
+    height: 10vh;
+}
+.menu2{
+    background-color: brown;
+    width: 55%;
+}
+.menu3 {
+    background-color: green;
+    width: 25%;
+}

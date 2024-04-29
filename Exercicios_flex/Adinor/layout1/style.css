@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+
+   margin: 10px 10px 10px 10px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+nav {
+    background-color: palevioletred;
+    height: 20vh;
+    
+}
+
+.layout1{
+    display: flex;
+    height: 78vh;
+    gap: 10px;
+    
+}
+.teste {
+    background-color: aqua;
+    flex: 1;
+    }
+.teste1 {
+    background-color: gray;
+    flex: 2;
+      
+}
+

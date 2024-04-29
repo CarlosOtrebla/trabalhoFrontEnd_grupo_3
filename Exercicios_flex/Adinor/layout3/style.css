@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+
+   margin: 10px 10px 10px 10px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+nav {
+    background-color: gray;
+    height: 20vh;
+    
+}
+.layout1{
+    display: flex;
+     gap: 10px;
+    width: 90%;
+    
+}
+.layout2{
+    margin-bottom: 10px;
+    width: 50%;
+   
+    
+}
+.layout0 {
+
+    display: inline-flex;
+    height: 77vh;
+    gap: 10px;
+    
+}
+.teste {
+    background-color: palevioletred;
+    border: 1px solid red;
+    width: 100%;
+    
+}
+.teste1 {
+    background-color: blue;
+    width: 100%;
+    height: 50%;
+    
+    margin-bottom: 10px;
+    
+      
+}
