@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header {
+.headerProdutos {
   background-color: rgb(34, 33, 33);
   color: rgb(177, 177, 177);
   height: 150px;
