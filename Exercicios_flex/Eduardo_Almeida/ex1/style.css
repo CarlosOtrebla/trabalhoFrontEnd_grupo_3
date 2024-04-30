@@ -4,32 +4,51 @@
     box-sizing: border-box;
 }
 
-header{
-    height: 100px;
-    background-color: gray;
-    margin: 10px;
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
+
+header{
+    height: 20%;
+    background-color: gray;
+    /* margin: 10px; */
+}
+
+.principal{
+    display: flex;
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
 aside{
-    margin: 10px;
+    /* margin: 10px;
     height:150px;
-    width: 85vw;
+    width: 85vw; */
     background-color: crimson;
 }
 
 .quadrado{
-    margin: 4px;
+    /* margin: 4px;
     height: 51%;
-    width: 42.1vw;
-    display: inline-block;
+    width: 42.1vw; */
+   
     background-color: aquamarine;
     align-items: end;
 }
-.tst{
-    display: flex;
-}
 
 .outro{ /* vem do header */
-    height: 360px;
-    width: 25%; 
-    align-items: end;
+    
+width:
 } 
