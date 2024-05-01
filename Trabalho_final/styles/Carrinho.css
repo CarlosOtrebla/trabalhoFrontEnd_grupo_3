@@ -40,3 +40,48 @@
     background-color: aqua;
     min-width: 25;
   }
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+thead{
+  border-bottom: 3px solid #ccc;
+  tr{
+    th{
+      text-align: left;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+      color: #666;
+    }
+  }
+}
+
+tbody{
+  tr{
+    border-bottom: 3px solid #eee;
+    &:last-child{
+      border:0;
+    }
+
+    td{
+      padding: 25px;
+    }
+  }
+}
+
+img{
+  height: 50%;
+  width: 40%;
+}
+.product{
+  display: block;
+}
+.nome{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.categoria{
+  color: #666;
+}
