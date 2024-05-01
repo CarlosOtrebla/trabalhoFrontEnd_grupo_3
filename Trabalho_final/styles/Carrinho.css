@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #f6f6f6;
+  }
+
+  header{
+    background-color: rgb(0, 60, 172);
+    color: white;
+    font-size: 24px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  body{
+    background: white;
+  }
+
+  main{
+    background-color: white;
+  }
+  main .page-title{
+    font-size: 35px;
+    padding: 50px 0;
+    text-align: center;
+  }
+  main .content{
+    display: flex;
+    padding: 0 30px 0 30px;
+  }
+  section{
+    flex: 1;
+  }
+  aside{
+    background-color: aqua;
+    min-width: 25;
+  }
