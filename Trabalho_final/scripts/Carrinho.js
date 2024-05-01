@@ -7,7 +7,7 @@ function colocarNoCarrinho(){
     const valorString = document.querySelector("product-price").textContent;
     const valor = Number(valorString);
 
-    const quantidadeString = document.querySelector("").ariaValueMax;
+    const quantidadeString = document.querySelector("input").ariaValueMax;
     const quantidade = Number(quantidadeString);
     
     const produto = {
@@ -18,10 +18,6 @@ function colocarNoCarrinho(){
 
     const carrinhoString = localStorage.getItem('carrinho');
     const carrinho = JSON.parse(carrinhoString);
-
-    /*for(let contador = 0; contador <= produto.quantidade; contador++){
-        carrinho.push(produto);
-    }*/
     
     carrinho.push(produto);
     carrinho.push(produto);

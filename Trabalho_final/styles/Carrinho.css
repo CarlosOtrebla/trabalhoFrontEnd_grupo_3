@@ -64,7 +64,6 @@ tbody{
     &:last-child{
       border:0;
     }
-
     td{
       padding: 25px;
     }
@@ -85,3 +84,4 @@ img{
 .categoria{
   color: #666;
 }
+
