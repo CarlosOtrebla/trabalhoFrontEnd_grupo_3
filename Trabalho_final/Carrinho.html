@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- #include file = "./trabalhoFrontEnd_grupo_3/Trabalho_final/produtos.html" -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de compras</title>
+  <link rel="stylesheet" href="/styles/Carrinho.css">
+  <script src="./scripts/Carrinho.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <span>Carrinho de compras</span>
+  </header>
+
+  <main>
+
+    <div class="page-title">Seu Carrinho</div>
+
+    <div class="content">
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Preço</th>
+              <th>Quantidade</th>
+              <th>Total</th>
+              <th>-</th>
+            </tr>
+          </thead>
+
+          <tbody> 
+            <tr> <!--Placa Mãe Asus Prime H610M-E D4 -->
+              <td>
+                <div class="product">
+                  <img src="/assets/placaMae/placa-mae-asus-prime-h610m-e-d4-chipset-h610-intel-lga-1700-matx-ddr4-90mb19n0-m0eay0_170439.jpg" alt="">
+                  
+                  <div class="nome">Placa Mãe Asus Prime H610M-E D4, Chipset H610, Intel LGA 1700, mATX, DDR4, 90MB19N0-C1BAY0</div>
+                  <div class="categoria">Placa mãe</div>
+  
+                </div>
+              </td>
+  
+              <td>R$ 629,90</td>
+  
+              <td>
+                <div class="qty">
+                  <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
+                </div>
+              </td>
+  
+              <td>R$ 0,0</td>
+  
+              <td> <button> <i class="bx bx-x"></i> </button> </i></td>
+            </tr> <!--Placa Mãe Asus Prime H610M-E D4 -->
+
+            <tr> <!--Placa Mãe Duex DX-H610ZG PRO -->
+              <td>
+                <div class="product">
+                  <img src="/assets/placaMae/placa-mae-duex-dx-h610zg-pro-chipset-h610-intel-lga-1700-matx-ddr4_195799.jpg" alt="">
+                  
+                  <div class="nome">Placa Mãe Duex DX-H610ZG PRO, Chipset H610, Intel LGA 1700, MATX, DDR4</div>
+                  <div class="categoria">Placa mãe</div>
+  
+                </div>
+              </td>
+  
+              <td>R$ 449,99</td>
+  
+              <td>
+                <div class="qty">
+                  <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
+                </div>
+              </td>
+  
+              <td>R$ 0,0</td>
+  
+              <td> <button> <i class="bx bx-x"></i> </button> </i></td>
+            </tr> <!--Placa Mãe Duex DX-H610ZG PRO -->
+
+
+
+            <!--TODO -> adicionar todos os produtos no carrinho de compras -->
+          </tbody> 
+
+          
+
+        </table>
+      </section>
+
+      <aside>resumo das compras</aside>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
