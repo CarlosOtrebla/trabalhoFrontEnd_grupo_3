@@ -38,11 +38,11 @@ content-cards-produtos {
   border-radius: 5px;
   margin: 10px;
   font-size: small;
-
+}
   .product-title {
     text-align: center;
   }
-}
+
 .product-price{
   color: rgb(0, 133, 0);
   font-size: 20px;
