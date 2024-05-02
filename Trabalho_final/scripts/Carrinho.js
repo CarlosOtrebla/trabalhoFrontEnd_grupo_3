@@ -21,6 +21,7 @@ function colocarNoCarrinho(){
     
     carrinho.push(produto);
     carrinho.push(produto);
+    
 
     localStorage.setItem('carrinho', carrinho);
 
