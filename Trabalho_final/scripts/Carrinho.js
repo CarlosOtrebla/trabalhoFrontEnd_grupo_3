@@ -2,7 +2,6 @@ var carrinho = JSON.parse(localStorage.getItem('carrinho'));
 
 function carregarItensDoCarrinho(carrinho) {
     const cards = document.querySelector('tbody');
-    const totalValor = 0.0 //servindo para operação, mas ainda não utilziada.
     
     cards.innerHTML = '';
 
@@ -18,17 +17,13 @@ function carregarItensDoCarrinho(carrinho) {
             </div>
         `;
         cards.innerHTML += itemHTML;
-        totalValor = totalValor + parseFloat(item.preco);
     });
 }
 document.addEventListener('DOMContentLoaded', function() {
     if (carrinho.length > 0) {
         carregarItensDoCarrinho(carrinho);
-    } else {
     }
-
-}
-)
+})
 
 
 
