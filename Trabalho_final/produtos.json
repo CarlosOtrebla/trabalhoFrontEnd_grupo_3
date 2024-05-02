@@ -71,6 +71,89 @@
       "descricao": "Teclado Mecânico Gamer Ninja Leap, Switch Blue, Rainbow, ABNT2, Black",
       "preco": "129.90",
       "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/caixa-de-som-creative-t60-hi-fi-20-usb-c-bluetooth-50-51mf1705aa001_151411.webp",
+      "descricao": "Caixa De Som Creative T60 Hi-Fi 2.0, USB-C, Bluetooth 5.0, 51MF1705AA001",
+      "preco": "679.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/caixa-de-som-creative-t60-hi-fi-20-usb-c-bluetooth-50-51mf1705aa001_151411.webp",
+      "descricao": "Caixa De Som Creative T60 Hi-Fi 2.0, USB-C, Bluetooth 5.0, 51MF1705AA001",
+      "preco": "679.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/aixa-de-som-gamer-redragon-waltz-rgb-stereo-20-35mm-2x5w-preto-gs510_189309.jpg",
+      "descricao": "Caixa De Som Creative SBS E2900 2.1 Powerful, Bluetooth/USB/3.5mm, Black, Com Controle Remoto, 51MF0490AA001",
+      "preco": "579.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/caixa-de-som-creative-sbs-e2900-21-powerful-bluetoothusb35mm-black-com-controle-remoto-51mf0490aa001_151379.jpg",
+      "descricao": "Caixa de Som Gamer Redragon Waltz, RGB, Stereo 2.0, 3.5mm, 2x5W, Preto, GS510",
+      "preco": "99.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/soundbar-creative-stage-360-hdmibluetooth-50-black-com-controle-remoto-51mf8385aa000_151425.webp",
+      "descricao": "Soundbar Creative Stage 360, HDMI/Bluetooth 5.0, Black, Com Controle Remoto, 51MF8385AA000",
+      "preco": "1689.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/controle-gamer-8bitdo-ultimate-c-sem-fio-windows-android-steam-os-raspberry-pi-roxo-81hc01_195751.jpg",
+      "descricao": "Controle Gamer 8BitDo Ultimate C, Sem Fio, Windows, Android, Steam OS, Raspberry Pi, Roxo, 81HC01",
+      "preco": "179.99",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/controle-gamer-8bitdo-sn30-pro-sem-fio-bluetooth-xbox-cloud-gaming-android-ios-black_195023.jpg",
+      "descricao": "Controle Arcade 8BitDo Arcade Stick, Sem Fio, Bluetooth, Switch, Windows, White, 80FE",
+      "preco": "719.99",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/controle-gamer-redragon-harrow-sem-fio-usb-24gz-pcps3-preto-g808_186822.webp",
+      "descricao": "Controle Gamer Redragon Harrow, Sem Fio, USB 2,4Gz, PC/PS3, Preto, G808",
+      "preco": "134.91",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/controle-sony-dualsense-ps5-sem-fio-midnight-black-3006452_160586.jpg",
+      "descricao": "Controle Sony DualSense PS5, Sem Fio, Midnight Black, 3006452",
+      "preco": "442.10",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/webcam-logitech-c505-hd-720p-30-fps-microfone-960-001367_134060.jpg",
+      "descricao": "Webcam Logitech C505, HD, 720p, 30 FPS, Microfone, 960-001367",
+      "preco": "249.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/webcam-intelbras-full-hd-1080p-usb-com-microfone-cam-1080p_190087.jpg",
+      "descricao": "Webcam Intelbras, Full HD, 1080P, USB, Com Microfone, CAM-1080P",
+      "preco": "289.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/webcam-logitech-brio-300-full-hd-1080p-30-fps-usb-c-rosa-960-001446_186249.jpg",
+      "descricao": "Webcam Logitech Brio 300, Full HD 1080P, 30 FPS, USB-C, Rosa, 960-001446",
+      "preco": "339.90",
+      "categoria": "perifericos"
+    },
+    {
+      "imagem": "/assets/perifericos/webcam-pcyes-raza-full-hd-1080p-usb-fhd-02_144730.jpg",
+      "descricao": "Webcam PCYES Raza, Full HD 1080p, USB, FHD-02 1080P",
+      "preco": "179.90",
+      "categoria": "perifericos"
     }
+
+
+
+
+
   ]
 }
