@@ -8,13 +8,31 @@
     background-color: #f6f6f6;
   }
 
-  header{
-    background-color: rgb(0, 60, 172);
-    color: white;
-    font-size: 24px;
-    padding: 20px 0;
+  .header-nav
+  {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 15vh;
+    background-image: url(/assets/Design\ sem\ nome.png);
+    font-family: "Roboto", sans-serif;
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+  }
+  .header-nav span{
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .header-nav a {
+    color: var(--branco);
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
   }
 
   body{
@@ -25,11 +43,13 @@
     background-color: white;
   }
   main .page-title{
+    font-family: "Roboto", sans-serif;
     font-size: 35px;
     padding: 50px 0;
     text-align: center;
   }
   main .content{
+    font-family: "Roboto", sans-serif;
     display: flex;
     padding: 0 30px 0 30px;
   }
@@ -38,7 +58,7 @@
   }
   aside{
     color:white;
-    background-color: rgb(0, 60, 172);
+    background-color: rgb(0, 177, 247);
     min-width: 25;
   }
 
