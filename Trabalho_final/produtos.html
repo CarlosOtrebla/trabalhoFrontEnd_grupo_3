@@ -15,7 +15,9 @@
     <a class="dit-menu" href="produtos.html">Placa-mãe</a>
     <a href="http://">Placa de Vídeo</a>
     <a href="http://">Periféricos</a>
-
+    <a class="botaoCarrinho" href="Carrinho.html">
+      <div class="carrinho">0</div>
+    </a>
     <div class="login">
       <a href="./login.html"><img src="/assets/login.png" alt=""></a>
     </div>
@@ -69,5 +71,43 @@ let produtosContainer = document.querySelector("#idCardProduto");
       
   </script>
 </body>
+<script>
+  let produtosContainer = document.querySelector("#idCardProduto");
+  fetch("produtos.json")
+    .then(response => response.json())
+    .then(dados => {
+      dados.produtos.forEach(produto => {
+        let divProduto = document.createElement("div");
+        divProduto.classList.add("product-card");
+
+        let imagemProduto = document.createElement("img");
+        imagemProduto.classList.add("product-image");
+        imagemProduto.src = produto.imagem;
+        imagemProduto.alt = "Foto do produto";
+
+        let descricaoProduto = document.createElement("p");
+        descricaoProduto.classList.add("product-title");
+        descricaoProduto.textContent = produto.descricao;
+
+        let precoProduto = document.createElement("p");
+        precoProduto.classList.add("product-price");
+        precoProduto.textContent = `Preço: R$ ${produto.preco}`;
+
+        let botaoComprar = document.createElement("button");
+        botaoComprar.classList.add("add-to-cart-btn")
+        botaoComprar.textContent = "Adicionar ao Carrinho";
+        botaoComprar.onclick = "";
+        botaoComprar.classList.add("btn-comprar");
+
+        divProduto.appendChild(imagemProduto);
+        divProduto.appendChild(descricaoProduto);
+        divProduto.appendChild(precoProduto);
+        divProduto.appendChild(botaoComprar);
+
+        produtosContainer.appendChild(divProduto);
+      });
+    })
+    .catch(error => console.error("Erro ao carregar os produtos:", error));
+</script>
 
 </html>
