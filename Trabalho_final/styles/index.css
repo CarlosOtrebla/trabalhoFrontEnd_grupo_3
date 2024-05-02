@@ -153,3 +153,27 @@ footer
   position: absolute;
   right: 5vw;
 }
+.botaoCarrinho 
+{
+  background-image: url(/assets/logoCarrinho.png);
+  background-size: 70%;
+  background-position: -2% -20%;
+  background-repeat: no-repeat;
+  background: index;
+  position: relative;
+  top: 5%
+}
+.carrinho 
+{
+  font-size: small;
+  content: '';
+  position: absolute;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+  background-color: red;
+  top: 50%;
+  margin-left: -2%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
