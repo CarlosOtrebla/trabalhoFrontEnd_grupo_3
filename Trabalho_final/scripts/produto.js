@@ -1,4 +1,3 @@
-
 //DOMContentLoaded faz com que o que está a partir daqui carregue somente depois que o html for carregado, cuidado com o que botar aqui.
 document.addEventListener('DOMContentLoaded', function() {
     const cardsProdutos = document.querySelectorAll('.product-card');
@@ -42,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Se já tá no carrinho, só adiciona mais um.
             if (produtoExistente) {
                 produtoExistente.quantidade++;
+                console.log(produtoExistente.quantidade)
             } else {
                 // Caso contrário, adiciona o produto ao array
                 carrinho.push(
@@ -52,10 +52,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     quantidade: 1
                     }
                 );
-                console.log(carrinho)
+                
             };
-        let qtdItensCarrinho = carrinho.length;
-        localCarrinho.textContent = qtdItensCarrinho.toString()   
+            localStorage.setItem('carrinho', JSON.stringify(carrinho));
+            let qtdItensCarrinho = carrinho.length;
+            localCarrinho.textContent = qtdItensCarrinho.toString() 
         });
     });
 });
