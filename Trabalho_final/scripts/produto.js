@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 //DOMContentLoaded faz com que o que está a partir daqui carregue somente depois que o html for carregado, cuidado com o que botar aqui.
 document.addEventListener('DOMContentLoaded', function () {
     const botoesCarrinho = document.querySelectorAll('.add-to-cart-btn'); //busca pela classe, caso for criar outro botão, lembrar de não criar com a mesma classe.
@@ -26,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-=======
+
 //DOMContentLoaded faz com que o que está a partir daqui carregue somente depois que o html for carregado, cuidado com o que botar aqui.
 document.addEventListener('DOMContentLoaded', function() {
     const cardsProdutos = document.querySelectorAll('.product-card');
@@ -89,4 +86,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
->>>>>>> 42cabe60c7923a05e540cb79406c8aa014f8150c

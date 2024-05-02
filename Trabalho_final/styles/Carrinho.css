@@ -37,7 +37,8 @@
     flex: 1;
   }
   aside{
-    background-color: aqua;
+    color:white;
+    background-color: rgb(0, 60, 172);
     min-width: 25;
   }
 

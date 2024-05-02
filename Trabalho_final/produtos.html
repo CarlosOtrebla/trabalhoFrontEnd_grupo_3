@@ -5,14 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Serratec Shop</title>
-  <link rel="stylesheet" href="/styles/produtos.css">
+  <link rel="stylesheet" href="/styles/index.css">
 </head>
-
 
 <body>
   <header class="header-nav">
     <a href="index.html"><img src="/assets/SerraTecShopLogo.png" alt="serratec:shop"></a>
-    <a class="dit-menu" href="produtos.html">Placa-mãe</a>
+    <a class="dit-menu" href="http://">Placa-mãe</a>
     <a href="http://">Placa de Vídeo</a>
     <a href="http://">Periféricos</a>
     <a class="botaoCarrinho" href="Carrinho.html">
@@ -30,47 +29,9 @@
   </div>
 
   <footer>&copy;2024 - Grupo 3 - All Rights Reserved</footer>
-  <script>
 
-let produtosContainer = document.querySelector("#idCardProduto");
-    fetch("produtos.json")
-        .then(response => response.json())
-        .then(dados => {
-            dados.produtos.forEach(produto => {
-                let divProduto = document.createElement("div");
-                divProduto.classList.add("product-card");
-
-                let imagemProduto = document.createElement("img");
-                imagemProduto.classList.add("product-image");
-                imagemProduto.src = produto.imagem;
-                imagemProduto.alt = "Foto do produto";
-
-                let descricaoProduto = document.createElement("p");
-                descricaoProduto.classList.add("product-title");
-                descricaoProduto.textContent = produto.descricao;
-
-                let precoProduto = document.createElement("p");
-                precoProduto.classList.add("product-price");
-                precoProduto.textContent = `Preço: R$ ${produto.preco}`;
-
-                let botaoComprar = document.createElement("button");
-                botaoComprar.classList.add("add-to-cart-btn")
-                botaoComprar.textContent = "Adicionar ao Carrinho";
-                botaoComprar.onclick= "";
-                botaoComprar.classList.add("btn-comprar");
-
-                divProduto.appendChild(imagemProduto);
-                divProduto.appendChild(descricaoProduto);
-                divProduto.appendChild(precoProduto);
-                divProduto.appendChild(botaoComprar);
-
-                produtosContainer.appendChild(divProduto);
-            });
-        })
-        .catch(error => console.error("Erro ao carregar os produtos:", error));
-      
-  </script>
 </body>
+
 <script>
   let produtosContainer = document.querySelector("#idCardProduto");
   fetch("produtos.json")
