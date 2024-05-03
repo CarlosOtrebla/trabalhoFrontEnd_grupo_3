@@ -12,6 +12,7 @@
 
   .header-nav {
     display: flex;
+
     align-items: center;
     text-align: center;
     width: 100vw;
@@ -22,7 +23,7 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    border: 3px solid white;
+    border: 1px solid white;
   }
 
   .header-nav a {
@@ -32,7 +33,7 @@
 
     color: white;
     font-size: 20px;
-    padding: 35px;
+    padding-top: 20px;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
   }
@@ -64,8 +65,8 @@
     font-weight: bold;
     border-bottom: 3px solid #ccc;
     margin-top: 80px;
-    color: #666;
-  -webkit-text-stroke: 1px #474e529a;
+    color: #3d3c3c;
+  
     
 
   }
@@ -133,7 +134,7 @@ tbody{
 }
 h3 {
   font-size: 40px;
-  color: #666;
+  color: #3d3c3c;
   -webkit-text-stroke: 1px #474e529a;
 }
 

@@ -9,14 +9,17 @@
   <title>Carrinho de compras</title>
   <link rel="stylesheet" href="/styles/Carrinho.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="styles/animations.css">
 </head>
 
 <body>
   
   <header class="header-nav">
-    <a href="index.html"><img src="/assets/SerraTecShopLogo.png" alt="serratec:shop"></a>
+    <a href="index.html" class="animate__animated animate__pulse animate__infinite	infinite"><img src="/assets/SerraTecShopLogo.png" alt="serratec:shop"></a>
     <span></span>
-    <a href="produtos.html"> <h3>Página de produtos</h3></a>
+    <a href="produtos.html" class="animate__animated animate__pulse animate__infinite	infinite"> <h3>Página de produtos</h3></a>
   </header>
 
   <main>
@@ -29,9 +32,8 @@
           <thead>
             <tr>
               <th>Produto</th>
-              <th>Preço</th>
-              <th>Quantidade</th>
-              <th>Total</th>
+              
+              <th id="total">Total</th>
 
             </tr>
           </thead>
@@ -44,7 +46,7 @@
         </table>
       </section>
 
-      <aside>Resumo das Compras</aside>
+      
     </div>
 
   </main>
