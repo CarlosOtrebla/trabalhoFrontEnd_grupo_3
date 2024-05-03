@@ -137,4 +137,10 @@ h3 {
   color: #3d3c3c;
   -webkit-text-stroke: 1px #474e529a;
 }
+@media screen and (max-width: 768px) {
+body {
+  font-size: 5px;
+}
+
+}
 
