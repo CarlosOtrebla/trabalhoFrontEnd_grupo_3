@@ -1,0 +1,90 @@
+#link1{
+    animation: jackInTheBox;
+    animation-duration: 3s;
+}
+#link2{
+    animation:jackInTheBox;
+    animation-duration: 3s;
+}
+#link3{
+    animation:jackInTheBox;
+    animation-duration: 3s;
+}
+#link4{
+    animation:jackInTheBox;
+    animation-duration: 3s;
+}
+
+
+
+#produto0{
+    animation: bounceInLeft;
+    animation-duration: 10s;
+  }
+  #produto1{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto2{
+    animation: bounceInRight;
+    animation-duration: 10s;
+  }
+  #produto3{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto4{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+
+  #produto5{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto6{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  .animatedElement:hover {
+    animation-play-state: initial; /* Inicia a animação quando o elemento é rolado para */
+}
+
+@keyframes bounceInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  #produto7{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto8{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto9{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto10{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto11{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto12{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }
+  #produto13{
+    animation: bounceInUp;
+    animation-duration: 10s;
+  }

@@ -2,65 +2,119 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <title>Serratec Shop</title>
-  <link rel="stylesheet" href="styles/index.css">
-  <script src="/scripts/index.js"></script>
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="styles/animations.css">
 
 </head>
 
 <body>
-  <header class="header-nav">
-    <a href="index.html"><img src="/assets/SerraTecShopLogo.png" alt="serratec:shop"></a>
-    <a class="dit-menu" href="http://">Placa-mãe</a>
-    <a href="http://">Placa de Vídeo</a>
-    <a href="http://">Periféricos</a>
-    <a class="botaoCarrinho" href="Carrinho.html">
-      <div class="carrinho">0</div>
+  <header id="header" class="header-nav">
+    <a id="link1" href="index.html"><img src="/assets/SerraTecShopLogo.png" alt="serratec:shop" /></a>
+    <a id="link2"class="dit-menu" href="/index.html">Home</a>
+    <a id="link3"href=#produto4>Placas de Vídeos</a>
+    <a id="link4"href=#perifericos>Periféricos</a>
+    <a id="link4"href="produtos.html">Todos os Produtos</a>
+    <i class="bi bi-cart3"></i>
+    <a class="botaoCarrinho" href="Carrinho.html ">
+    <div class="carrinho">0</div>
+
+
     </a>
     <div class="login">
-      <a href="./login.html"><img src="/assets/login.png" alt=""></a>
+      <a href="./login.html">LOGIN<i class="bi bi-box-arrow-in-right"></i></a>
+    </div>
+  </header>
 
-      </div>
-    </header>
-  
-      <div class="container-fluid container-titulo">
-      <h3>OS MELHORES EQUIPAMENTOS PARA SEU COMPUTADOR!</h3>
-     </div>
-     <div class="container-fluid ">
+  <div id="placa-mae" class="container-fluid container-titulo animate__animated animate__zoomIn animate__slower">
+    <h3>OS MELHORES EQUIPAMENTOS PARA O SEU COMPUTADOR!</h3>
+  </div>
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div  id="produto0" class="col " style="width: 100px; height: 400px"></div>
+      <div id="produto1" class="col " style="width: 100px; height: 400px"></div>
+      <div id="produto2" class="col " style="width: 100px; height: 400px"></div>
+    </div>
+  </div>
+
+  <div id="placa-video" class="container-fluid container-titulo animate__animated animate__zoomIn animate__slower">
+    <h3>AS MELHORES PLACAS DE VIDEO!</h3>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div id="produto3" class="col "></div>
+      <div id="produto4" class="col "></div>
+
+    </div>
+  </div>
+    <div class="container-fluid container-titulo ">
+      <h3>NOSSO PRODUTO MAIS VENDIDO!</h3>
+    </div>
+
+    <div class="container-fluid">
       <div class="row">
-        <div id="produto" class="col">
-          
+        <div id="produto5" class="col-8"></div>
+        <div class="col-4">
+          <p>
+
+            A Placa de Vídeo INNO3D GeForce RTX 3060 TWIN X2 é simplesmente uma maravilha tecnológica. Com 12GB de
+            memória GDDR6, esta placa não só oferece uma potência gráfica excepcional, mas também é equipada com
+            tecnologias revolucionárias como DLSS e Ray Tracing.
+
+            Com ela, mergulhar em qualquer jogo se torna uma experiência imersiva de tirar o fôlego. Os gráficos são
+            renderizados com uma precisão e nitidez impressionantes, proporcionando visuais incríveis e realistas que
+            elevam o entretenimento a um novo patamar.
+
+            Além disso, a eficiência energética desta placa garante um desempenho excepcional sem comprometer a sua
+            conta de luz. Seja para jogar os mais recentes títulos AAA, trabalhar com edição de vídeo ou explorar a
+            realidade virtual, a INNO3D GeForce RTX 3060 TWIN X2 se destaca como uma escolha incomparável.
+
+            Se você busca o melhor em desempenho gráfico, esta placa de vídeo é a sua resposta. Não apenas entrega, mas
+            supera as expectativas, oferecendo uma experiência de jogo suave, imersiva e de alta qualidade. Com a INNO3D
+            GeForce RTX 3060 TWIN X2, prepare-se para elevar sua experiência de computação a novos patamares de
+            excelência.
+          </p>
         </div>
-        <div id="produto1" class="col">
-          
-        </div>
-        <div id="produto2" class="col">
-          
-        </div>
-        
+
       </div>
-    </div>  
+    </div>
 
-  <div class="container">
+      <div id="perifericos" class="container-fluid  container-titulo ">
+        <h3>Os Periféricos mais baratos do Mercado!</h3>
+      </div>
 
-  </div>
- 
-  
-   
+      <div class="container-fluid">
+        <div class="row">
+          <div id="produto6" class="col"></div>
+          <div id="produto7" class="col"></div>
+          <div id="produto8" class="col"></div>
+    
+        </div>
+      </div>
 
 
-  </div>
-  <div class="quemsomosnos">Quem somos nós!</div>
-  <div class="video">
-  <video src="/assets/SERRATEC _ PARQUE TECNOLÓGICO DA REGIÃO SERRANA _ INSTITUCIONAL.mp4"  autoplay loop muted></video>
- </div>
-  <footer>&copy;2024 - Grupo 3 - All Rights Reserved</footer>
 
+
+      <div id="perifericos" class="container-fluid  container-titulo ">
+        <h3>Quem Somos Nós!</h3>
+      </div>
+
+      <div class="container-fluid video">
+        <a href="https://www.instagram.com/serratecoficial/"><i class="bi bi-instagram"></i></a>
+
+        <video class="video1" src="/assets/SERRATEC _ PARQUE TECNOLÓGICO DA REGIÃO SERRANA _ INSTITUCIONAL.mp4" autoplay
+          loop muted></video>
+        
+       <a href="https://www.youtube.com/@SerratecOficial"><i class="bi bi-youtube"></i></a>
+      </div>
+      <footer>&copy;2024 - Grupo 3 - All Rights Reserved</footer>
 </body>
-
-
+<script src="/scripts/index.js" defer></script>
 </html>
