@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOJA VIRTUAL - LOGIN</title>
     <link rel="stylesheet" href="./styles/login.css">
-    <script src="./scripts/login.js"></script>
 </head>
 
 <body>
@@ -18,23 +17,61 @@
     <div id="formulario">
         <img class="" src="./assets/SerraTecShopLogin.png" alt="Serratec Shop Log Tela de login">
 
-        <form action="" class="formAction">
+        <form action="#" class="formAction" onsubmit="return fazerLogin()">
 
             <section class="sec-name">
                 <label for="username">Usuário</label>
-                <input type="text" id="username" name="username" placeholder="Digite seu usuário"
-                    onkeyup="habilitarBotao()">
+                <input type="text" id="username" name="username" placeholder="Digite seu usuário" onkeyup="habilitarBotao()" required>
+                   
             </section>
             <section class="sec-senha">
                 <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" placeholder="Digite sua senha"
-                    onkeyup="habilitarBotao()">
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" onkeyup="habilitarBotao()" required>
+                   
             </section>
 
-            <button id="entrar" disabled="true"></button>
+            <button type="submit" id="entrar" disabled ></button>
         </form>
     </div>
 
+    <script>
+
+        async function fazerLogin() {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const senha = document.getElementById('senha').value;
+
+            const response = await fetch('usuarios.json');
+            const data = await response.json();
+            console.log(data.listUsers)
+            const usuarios = (data.listUsers);
+            console.log(usuarios)
+
+            const usuarioEncontrado = usuarios.find(usuario => usuario.usuario === username && usuario.senha == senha);
+
+            if (usuarioEncontrado) {
+                alert('Login bem sucedido! Bem-vindo, ' + usuarioEncontrado.nome);
+
+                document.getElementById('username').value = "";
+                document.getElementById('senha').value = "";
+                window.location.href = "index.html";       
+
+
+                
+            } else {
+                alert('Usuário ou senha inválidos. Por favor, tente novamente.');
+                document.getElementById('username').value = "";
+                document.getElementById('senha').value = "";
+            }
+
+            return false;
+        }
+
+    </script>
+
+
+    <script src="./scripts/login.js"></script>
 </body>
 
 </html>

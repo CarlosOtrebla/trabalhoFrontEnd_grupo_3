@@ -3,10 +3,11 @@ function habilitarBotao() {
     var entrarBotao = document.getElementById("entrar");
     var usuario = document.getElementById("username")
 
-    // Verifica se a senha tem 8 ou mais caracteres
-    if (senhaInput.value.length >= 8 && usuario.value.trim() != "") {
-        entrarBotao.disabled = false; // Habilita o botão
+  
+    if (senhaInput.value.length >= 4 && usuario.value.trim() !== "") {
+        entrarBotao.disabled = false; 
     } else {
-        entrarBotao.disabled = true; // Desabilita o botão
+        entrarBotao.disabled = true;
     }
 }
+

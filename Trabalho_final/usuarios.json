@@ -1,0 +1,28 @@
+{
+  "listUsers": [
+    { "nome": "Carlos Alberto",
+      "usuario":"carlosotrebla",
+      "senha":"1234"
+    },
+    {
+      "nome": "Adinor Santana",
+      "usuario":"andinor",
+      "senha": "1234"
+    },
+    {
+      "nome": "Guido Scagliuse",
+      "usuario":"guido",
+      "senha":"1234"
+    },
+    {
+      "nome": "Eduardo",
+      "usuario":"eduardo",
+      "senha":"1234"
+    },
+    {
+      "nome": "Marcos",
+      "usuario":"marcos",
+      "senha":"1234"
+    }
+  ]
+}
