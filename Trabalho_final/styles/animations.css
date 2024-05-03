@@ -1,17 +1,37 @@
 #link1{
-    animation: jackInTheBox;
+    animation:zoomInDown;
     animation-duration: 3s;
 }
 #link2{
-    animation:jackInTheBox;
+    animation:zoomInDown;
     animation-duration: 3s;
 }
 #link3{
-    animation:jackInTheBox;
+    animation:zoomInDown;
     animation-duration: 3s;
 }
 #link4{
-    animation:jackInTheBox;
+    animation:zoomInDown;
+    animation-duration: 3s;
+}
+#link5{
+  animation:zoomInDown;
+    animation-duration: 3s;
+}
+#link6{
+  animation:zoomInDown;
+    animation-duration: 3s;
+}
+#link7{
+  animation:zoomInDown;
+    animation-duration: 3s;
+}
+#link8{
+  animation:zoomInDown;
+    animation-duration: 3s;
+}
+#link9{
+  animation:zoomInDown;
     animation-duration: 3s;
 }
 
