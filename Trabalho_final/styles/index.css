@@ -284,7 +284,28 @@ footer {
   display: inline-block; /* ou inline-flex */
   vertical-align: top;
 }
+.menu-list {
+  display: none;
+}
 
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; /* Para garantir que o ícone fique sempre acima de outros elementos */
+}
+
+.whatsapp-icon img {
+  width: 60px; /* Ajuste conforme necessário */
+  height: auto; /* Isso garante que a proporção da imagem seja mantida */
+}
+
+.bi-whatsapp {
+  color: green;
+  font-size: 90px;
+  
+}
 
 @media screen and (max-width: 768px) {
   .header-nav {
@@ -337,9 +358,21 @@ footer {
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  
-  .container {
-    width: 90%; 
+@media only screen and (max-width: 1024px) {
+  .header-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-nav a {
+    margin: 10px 0;
+  }
+  .carrinho {
+    display: none; /* Esconder o contador do carrinho */
+  }
+  .menu-toggle {
+    display: block; /* Exibir o ícone do menu */
+  }
+  .header-nav:not(:target) .menu-list {
+    display: none; /* Ocultar a lista de menu quando o menu não estiver expandido */
   }
 }
