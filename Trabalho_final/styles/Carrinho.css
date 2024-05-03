@@ -4,26 +4,31 @@
     box-sizing: border-box;
   }
 
-  body{
-    background-color: #f6f6f6;
+  body {
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url(/assets/fundo.png);
   }
 
-  .header-nav
-  {
+  .header-nav {
     display: flex;
+    align-items: center;
+    text-align: center;
     width: 100vw;
-    height: 25vh;
+    height: 15vh;
     background-image: url(/assets/Design\ sem\ nome.png);
     font-family: "Roboto", sans-serif;
-    top: 0; 
-    left: 0; 
-    z-index: 1000; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border: 3px solid white;
   }
 
   .header-nav a {
     align-items: center;
     width: 40vw;
-    height: 15vh;
+    height: 10vh;
 
     color: white;
     font-size: 20px;
@@ -50,10 +55,19 @@
   main{
     background-color: white;
   }
-  main .page-title{
-    font-size: 35px;
+  .page-title{
+    height: 120px;
+    font-size: 55px;
     padding: 50px 0;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #ccc;
+    margin-top: 80px;
+    color: #666;
+  -webkit-text-stroke: 1px #474e529a;
+    
+
   }
   main .content{
     display: flex;
@@ -62,9 +76,19 @@
   section{
     flex: 1;
   }
+  th {
+    font-family: sans-serif;
+    padding-top: 7px;
+    font-weight: bold;
+  }
   aside{
-    background-color: aqua;
+    background-color: #36B6F4;
     min-width: 25;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 3px;
   }
 
 
@@ -106,5 +130,10 @@ tbody{
 }
 .categoria{
   color: #666;
+}
+h3 {
+  font-size: 40px;
+  color: #666;
+  -webkit-text-stroke: 1px #474e529a;
 }
 
