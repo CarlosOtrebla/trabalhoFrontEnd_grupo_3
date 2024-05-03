@@ -1,3 +1,7 @@
+const carrinho = [];
+const qtdItensCarrinho = carrinho.length;
+const localCarrinho = document.querySelector('.carrinho')
+
 function carregarProduto() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
@@ -48,6 +52,31 @@ function exibirProduto(produto, idDiv) {
         botao.style.backgroundColor = 'rgba(64, 64, 64, 1)'; // Exemplo: define o fundo do botão como azul
         botao.style.color = 'white'; // Exemplo: define a cor do texto do botão como branca
         botao.dataset.productId = produto.id; // Define o ID do produto como um atributo de dados
+        botao.onclick = function botaoadcCarrinho(event) {
+            event.preventDefault();
+            const imagem = produto.imagem;
+            const titulo = produto.descricao;
+            const preco = produto.preco;
+
+            const produtoExistente = carrinho.find(item => item.titulo === titulo);
+
+            if (produtoExistente) {
+                produtoExistente.quantidade++;
+                console.log(produtoExistente.quantidade)
+            } else {
+                carrinho.push(
+                    {
+                        imagem: imagem,
+                        titulo: titulo,
+                        preco: preco,
+                        quantidade: 1
+                    }
+                );
+            };
+            localStorage.setItem('carrinho', JSON.stringify(carrinho));
+            let qtdItensCarrinho = carrinho.length;
+            localCarrinho.textContent = qtdItensCarrinho.toString();
+        };;
         produtoDiv.appendChild(botao);
     } else {
         console.error('Elemento com o ID ' + idDiv + ' não encontrado.');
