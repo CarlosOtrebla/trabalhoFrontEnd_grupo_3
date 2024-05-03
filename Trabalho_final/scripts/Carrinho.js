@@ -1,4 +1,5 @@
 var carrinho = JSON.parse(localStorage.getItem('carrinho'));
+console.log('itens recebidos: ', carrinho)
 
 function carregarItensDoCarrinho(carrinho) {
     const cards = document.querySelector('tbody');
@@ -7,7 +8,7 @@ function carregarItensDoCarrinho(carrinho) {
     cards.innerHTML = '';
 
     carrinho.forEach(item => {
-        const qtd = parseInt(item.quantidade)
+        const qtd = parseInt(item.quantidade);
         const itemHTML = `
             <div class="item-do-carrinho">
                 <img class="imagem" src="${item.imagem}" alt="${item.titulo}">
@@ -18,7 +19,6 @@ function carregarItensDoCarrinho(carrinho) {
             </div>
         `;
         cards.innerHTML += itemHTML;
-        totalValor = totalValor + parseFloat(item.preco);
     });
 }
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,36 +29,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }
 )
-
-
-
-
-// const botaoAdicionarCarrinho = document.querySelector("button");
-// botaoAdicionarCarrinho.addEventListener("click", colocarNoCarrinho);
-
-// function colocarNoCarrinho(){
-//     const nome = document.querySelector("product-title").textContent;
-
-//     const valorString = document.querySelector("product-price").textContent;
-//     const valor = Number(valorString);
-
-//     const quantidadeString = document.querySelector("input").ariaValueMax;
-//     const quantidade = Number(quantidadeString);
-    
-//     const produto = {
-//         nome,
-//         valor,
-//         quantidade,
-//     };
-
-//     const carrinhoString = localStorage.getItem('carrinho');
-//     const carrinho = JSON.parse(carrinhoString);
-    
-//     carrinho.push(produto);
-//     carrinho.push(produto);
-    
-
-//     localStorage.setItem('carrinho', carrinho);
-
-// }
-
